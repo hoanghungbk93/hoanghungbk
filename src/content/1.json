@@ -1,0 +1,16 @@
+{0: 
+  {Interval(19.95, 19.958, closed='right'): 5, 
+    Interval(19.958, 19.967, closed='right'): 5, 
+    Interval(19.967, 19.975, closed='right'): 11, 
+    Interval(19.975, 19.984, closed='right'): 25, 
+    Interval(19.984, 19.992, closed='right'): 22, 
+    Interval(19.992, 20.001, closed='right'): 28, 
+    Interval(20.001, 20.009, closed='right'): 34, 
+    Interval(20.009, 20.018, closed='right'): 26, 
+    Interval(20.018, 20.026, closed='right'): 22, 
+    Interval(20.026, 20.035, closed='right'): 12, 
+    Interval(20.035, 20.043, closed='right'): 5, 
+    Interval(20.043, 20.052, closed='right'): 3, 
+    Interval(20.052, 20.06, closed='right'): 0, 
+    Interval(20.06, 20.069, closed='right'): 0}
+  }

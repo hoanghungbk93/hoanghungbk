@@ -86,15 +86,15 @@ const Footer = ({ t }: any) => {
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:systemadmin@adela.com">
+              <a href="mailto:hch.bkhn@gmail.com">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
             </Col>
             <Col lg={8} md={8} sm={8} xs={8}>
               {/* <Empty /> */}
               <Language>{t("Address")}</Language>
-              <Para>Westpoint Vinhomes Pham Hung</Para>
-              <Para>Me Tri</Para>
+              <Para>Kien Hung</Para>
+              <Para>Ha Dong</Para>
               <Para>Ha Noi</Para>
             </Col>
             <Col lg={8} md={8} sm={8} xs={8}>
@@ -154,23 +154,23 @@ const Footer = ({ t }: any) => {
               </LogoContainer>
             </NavLink>
             <FooterContainer>
-              {/* <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
+              <SocialLink
+                href="https://github.com/hoanghungbk93"
                 src="github.svg"
   
-              /> */}
+              />
               <SocialLink
-                href="https://www.facebook.com/adelavn.2021"
+                href="https://www.facebook.com/hoanghungbk93"
                 src="facebook.svg"
               />
               <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
+                href="https://www.linkedin.com/in/h%C3%B9ng-c%C3%B4ng-417839150"
                 src="linkedin.svg"
               />
-              <SocialLink
+              {/* <SocialLink
                 href="https://medium.com/@lashakakabadze/"
                 src="medium.svg"
-              />
+              /> */}
               <a href="https://www.buymeacoffee.com/adrinlol">
                 <img
                   src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=adrinlol&button_colour=FF5F5F&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"

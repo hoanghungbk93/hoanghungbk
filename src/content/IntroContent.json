@@ -1,12 +1,12 @@
 {
   "title": "My information",
-  "text": "I'm Hung. I'm a developer. My hobby is algorithm and AI. ",
+  "text": "I'm Hung. I'm a developer. My hobby is algorithm and AI. I want to become smart factory expert.",
   "button": [
     {
       "title": "Explore"
     },
     {
-      "title": "Learn more",
+      "title": "See more",
       "color": "#fff"
     }
   ]

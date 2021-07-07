@@ -1,4 +1,4 @@
-import { lazy } from "react";
+import { lazy, useState } from "react";
 import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
@@ -11,8 +11,10 @@ const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
 const Container = lazy(() => import("../../common/Container"));
 const ScrollToTop = lazy(() => import("../../common/ScrollToTop"));
 const ContentBlock = lazy(() => import("../../components/ContentBlock"));
+const ModalWebcom = lazy(() => import("../../components/Modal"))
 
 const Home = () => {
+  const [visible, setVisible] = useState(false)
   return (
     <Container>
       <ScrollToTop />
@@ -55,7 +57,12 @@ const Home = () => {
         title={ContactContent.title}
         content={ContactContent.text}
         id="contact"
+        setVisible={setVisible}
       />
+      <ModalWebcom 
+        visible={visible}
+        setVisible={setVisible}
+      ></ModalWebcom>
     </Container>
   );
 };
